@@ -6,7 +6,7 @@
 \title{Common toad body temperatures and associated operative temperatures}
 \format{An object of class \code{data.frame} with 99 rows and 2 columns.}
 \source{
-Wouter Beukema \email{wouter.beukema@ugent.be}
+Wouter Beukema \email{wouter.beukema@gmail.com}
 }
 \usage{
 data(bufbuf)
