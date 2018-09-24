@@ -8,6 +8,6 @@
 #' 
 #' @usage data(bufbuf)
 #' 
-#' @source Wouter Beukema \email{wouter.beukema@@ugent.be}
+#' @source Wouter Beukema \email{wouter.beukema@@gmail.com}
 #' 
 "bufbuf"
