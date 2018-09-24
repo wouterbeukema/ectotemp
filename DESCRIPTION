@@ -1,9 +1,13 @@
 Package: ectotemp
 Title: Quantitative Estimates of Small Ectotherm Temperature Regulation Effectiveness
-Version: 0.0.0.9000
+Version: 0.1.9000
 Author: Wouter Beukema <wouter.beukema@gmail.com>
 Maintainer: Wouter Beukema <wouter.beukema@gmail.com>
-Description: Easy and rapid quantitative estimation of small terrestrial ectotherm temperature regulation effectiveness in R. ectotemp is built on classical formulas that evaluate temperature regulation by means of various indices. Options for bootstrapping and permutation testing are included to test hypothesis about divergence between organisms, species or populations.
+Description: Easy and rapid quantitative estimation of small terrestrial 
+ectotherm temperature regulation effectiveness in R. ectotemp is built on 
+classical formulas that evaluate temperature regulation by means of various 
+indices. Options for bootstrapping and permutation testing are included to test 
+hypothesis about divergence between organisms, species or populations.
 Depends: R (>= 3.5.0)
 Imports: 
     dplyr,
