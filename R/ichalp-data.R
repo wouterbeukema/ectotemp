@@ -9,6 +9,6 @@
 #' 
 #' @usage data(ichalp)
 #' 
-#' @source Wouter Beukema \email{wouter.beukema@@ugent.be}
+#' @source Wouter Beukema \email{wouter.beukema@@gmail.com}
 #' 
 "ichalp"
