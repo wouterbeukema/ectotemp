@@ -14,7 +14,7 @@ knitr::opts_chunk$set(
 
 # ectotemp
 
-Easy and rapid quantitative estimation of small terrestrial ectotherm temperature regulation effectiveness in R. ectotemp is built on classical formulas that evaluate temperature regulation by means of various indices. Options for bootstrapping and permutation testing are included to test hypothesis about divergence between organisms, species or populations.
+Easy and rapid quantitative estimation of small terrestrial ectotherm temperature regulation effectiveness in R. ectotemp is built on classical formulas that evaluate temperature regulation by means of various indices. Options for bootstrapping and permutation testing are included to test hypotheses about divergence between organisms, species or populations.
 
 ectotemp builds on work by Hertz et al. (1993, and references therein), Christian and Weavers (1996), and Blouin-Demers and Weatherhead (2001). Users of this package do not need to be particularly experienced in R, but are expected to be familiar with the background, appropriate choice, and caveats of the available functions (Hertz et al. 1993, Christian and Weavers 1996, Wills and Beaupre 2000, Blouin-Demers and Nadeau 2005). 
 
