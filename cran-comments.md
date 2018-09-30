@@ -1,3 +1,10 @@
+## Resubmission
+This is a resubmission. In this version I have:
+
+* Converted the DESCRIPTION title to title case.
+
+* Added a reference to the inaugural paper describing the methods.
+
 ## test environments
 * local OS Windows 10 64-bit install, R 3.5.1
 * ubuntu 14.04 (on travis-ci), R 3.5.0
@@ -13,3 +20,4 @@ at 7:224); those words are spelled correctly.
 
 ## Downstream dependencies
 There are no downstream dependencies.
+ 
