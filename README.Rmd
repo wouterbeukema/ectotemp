@@ -14,6 +14,12 @@ knitr::opts_chunk$set(
 
 {<img src="https://travis-ci.org/wouterbeukema/ectotemp.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/wouterbeukema/ectotemp]
 
+https://travis-ci.org/wouterbeukema/ectotemp.svg?branch=master
+
+[![Build Status](https://travis-ci.org/wouterbeukema/ectotemp.svg?branch=master)](https://travis-ci.org/wouterbeukema/ectotemp)
+
+!https://travis-ci.org/wouterbeukema/ectotemp.svg?branch=master!:https://travis-ci.org/wouterbeukema/ectotemp
+
 # ectotemp
 
 Easy and rapid quantitative estimation of small terrestrial ectotherm temperature regulation effectiveness in R. ectotemp is built on classical formulas that evaluate temperature regulation by means of various indices. Options for bootstrapping and permutation testing are included to test hypotheses about divergence between organisms, species or populations.
