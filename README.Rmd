@@ -30,7 +30,7 @@ The aim of the ectotemp package is to facilitate easy and rapid estimation of sm
 
 * Choice between several approaches to **calculate effectiveness of temperature regulation (*E*)**, including bootstrap resampling of the original distributions of *T*<sub>b</sub> and *T*<sub>e</sub> to determine confidence interval for the mean, and permutation tests for between-population or species comparisons;
 
-* **Exploitation of the thermal environment (Ex)**, i.e., the amount of time when field body temperatures (*T*<sub>b</sub>) are within the set-point range, relative to the total amount of time during which this could have been possible as indicated by operative temperatures (*T*<sub>e</sub>).
+* **Exploitation of the thermal environment (Ex)**; the amount of time when field body temperatures (*T*<sub>b</sub>) are within the set-point range, relative to the total amount of time during which this could have been possible as indicated by operative temperatures (*T*<sub>e</sub>).
 
 ## Installation
 
