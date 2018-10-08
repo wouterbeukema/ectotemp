@@ -12,13 +12,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-{<img src="https://travis-ci.org/wouterbeukema/ectotemp.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/wouterbeukema/ectotemp]
-
-https://travis-ci.org/wouterbeukema/ectotemp.svg?branch=master
-
 [![Build Status](https://travis-ci.org/wouterbeukema/ectotemp.svg?branch=master)](https://travis-ci.org/wouterbeukema/ectotemp)
-
-!https://travis-ci.org/wouterbeukema/ectotemp.svg?branch=master!:https://travis-ci.org/wouterbeukema/ectotemp
 
 # ectotemp
 
