@@ -4,9 +4,9 @@
 \name{ectotemp-package}
 \alias{ectotemp}
 \alias{ectotemp-package}
-\title{ectotemp: Quantitative estimates of small ectotherm temperature regulation effectiveness}
+\title{ectotemp: Quantitative Estimates of Small Ectotherm Temperature Regulation Effectiveness}
 \description{
-Easy and rapid quantitative estimation of small terrestrial ectotherm temperature regulation effectiveness in R. 'ectotemp' is built on classical formulas that evaluate temperature regulation by means of various indices. Options for bootstrapping and permutation testing are included to test hypotheses about divergence between organisms, species or populations.
+Easy and rapid quantitative estimation of small terrestrial ectotherm temperature regulation effectiveness in R. 'ectotemp' is built on classical formulas that evaluate temperature regulation by means of various indices, inaugurated by Hertz et al. (1993) <doi: 10.1086/285573>. Options for bootstrapping and permutation testing are included to test hypotheses about divergence between organisms, species or populations.
 }
 \details{
 ectotemp builds on work by Hertz et al. (1993, and references therein), 
