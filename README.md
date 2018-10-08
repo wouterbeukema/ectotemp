@@ -25,7 +25,7 @@ The aim of the ectotemp package is to facilitate easy and rapid estimation of sm
 Installation
 ------------
 
-The released version of ''ectotemp'' can be installed from CRAN with:
+The released version of ectotemp can be installed from CRAN with:
 
 ``` r
 install.packages("ectotemp")
