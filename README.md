@@ -5,6 +5,8 @@ ectotemp
 
 [![Build Status](https://travis-ci.org/wouterbeukema/ectotemp.svg?branch=master)](https://travis-ci.org/wouterbeukema/ectotemp)
 
+[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/ectotemp)](https://cran.r-project.org/package=ectotemp)
+
 Easy and rapid quantitative estimation of small terrestrial ectotherm temperature regulation effectiveness in R.
 ----------------------------------------------------------------------------------------------------------------
 
@@ -41,7 +43,7 @@ install_github("wouterbeukema/ectotemp")
 Examples
 --------
 
-**Analyse**<br/> Output summary of `bootstrap_E`, which combines operative and body temperature data (*T*<sub>e</sub>, *T*<sub>b</sub>) and the set-point range (predetermined values, 19.35°C and 26.44°C in the example below) with the desired method to estimate thermoregulation effectiveness (*E*; either ‘hertz’ or ‘blouin’), and the number of bootstrap samples drawn with replacement (10.000 in the example below). The output consists of the mean, its 95% confidence interval, and the full list of obtained *E* values.
+**Analyse**<br/> Output summary of `bootstrap_E`, which combines operative and body temperature data (*T*<sub>e</sub>, *T*<sub>b</sub>) and the bounds of the set-point range (predetermined values, 19.35°C and 26.44°C in the example below) with the desired method to estimate thermoregulation effectiveness (*E*; either ‘hertz’ or ‘blouin’), and the number of bootstrap samples drawn with replacement (10.000 in the example below). The output consists of the mean, its 95% confidence interval, and the full list of obtained *E* values.
 
 ``` r
 
