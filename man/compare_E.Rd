@@ -8,15 +8,15 @@ compare_E(datasp1, datasp2, tset_lowsp1, tset_upsp1, tset_lowsp2,
   tset_upsp2, index, n)
 }
 \arguments{
-\item{datasp1}{A dataframe with two columns named 'te' (containing operative 
-temperatures) and 'tb' (containing body temperature measurements) of entity 
+\item{datasp1}{A dataframe with two columns named 'te' (containing operative
+temperatures) and 'tb' (containing body temperature measurements) of entity
 1. Do not use capitals in column names.}
 
 \item{datasp2}{A dataframe for entity 2 structured as indicated above.}
 
-\item{tset_lowsp1}{Lower boundary of the set-point range of entity 1 that 
+\item{tset_lowsp1}{Lower boundary of the set-point range of entity 1 that
 was determined through thermal preference trials in a temperature gradient.
-This may be a named double vector containing the lower boundary value, or 
+This may be a named double vector containing the lower boundary value, or
 simply the value itself.}
 
 \item{tset_upsp1}{Upper boundary of the set-point range of entity 1.}
@@ -30,37 +30,37 @@ simply the value itself.}
 \item{n}{The desired number of samples drawn without replacement.}
 }
 \value{
-Permutation testing results including a graphical overview which 
-displays the empirical (actual) difference in E between two entities, along 
-with a null distribution of differences in permuted E values constructed 
+Permutation testing results including a graphical overview which
+displays the empirical (actual) difference in E between two entities, along
+with a null distribution of differences in permuted E values constructed
 from pooled data of both entities.
 }
 \description{
-To test whether or not distinct species or populations (hereafter 'entity') 
-differed in their effectiveness of thermoregulation, Hertz et al. (1993) 
-suggested comparing paired estimates of E obtained through bootstrapping. 
-However, because sample sizes of active body temperatures (Tb) or operative 
-temperatures (Te) may be small and could differ in size and variance, 
-possibly leading to non-normality, we propose to use two-sided permutation 
-testing instead of bootstrapping to build and compare distributions of E 
+To test whether or not distinct species or populations (hereafter 'entity')
+differed in their effectiveness of thermoregulation, Hertz et al. (1993)
+suggested comparing paired estimates of E obtained through bootstrapping.
+However, because sample sizes of active body temperatures (Tb) or operative
+temperatures (Te) may be small and could differ in size and variance,
+possibly leading to non-normality, we propose to use two-sided permutation
+testing instead of bootstrapping to build and compare distributions of E
 values.
 }
 \examples{
 bufbuf <- bufbuf
 ichalp <- ichalp
 E_diff <- compare_E(bufbuf, ichalp,
-                    19.35, 26.44, 
+                    19.35, 26.44,
                     14.44, 18.33,
                     'blouin',
                     1000)
-                    
+
 }
 \references{
-Blouin-Demers, G., & Weatherhead, P. J. (2001). Thermal ecology of black rat 
+Blouin-Demers, G., & Weatherhead, P. J. (2001). Thermal ecology of black rat
 snakes (Elaphe obsoleta) in a thermally challenging environment. Ecology, 82
 (11), 3025-3043. \cr
-Hertz, P. E., Huey, R. B., & Stevenson, R. D. (1993). Evaluating temperature 
-regulation by field-active ectotherms: the fallacy of the inappropriate 
+Hertz, P. E., Huey, R. B., & Stevenson, R. D. (1993). Evaluating temperature
+regulation by field-active ectotherms: the fallacy of the inappropriate
 question. The American Naturalist, 142(5), 796-818.
 }
 \seealso{

@@ -12,31 +12,31 @@ calculate_E_blouin(te, tb, tset_low, tset_up)
 \item{tb}{A vector containing body temperature measurements.}
 
 \item{tset_low}{Lower boundary of a species or population set-point range
-that was determined through thermal preference trials in a temperature 
-gradient. This may be a named double vector containing the lower boundary 
+that was determined through thermal preference trials in a temperature
+gradient. This may be a named double vector containing the lower boundary
 value, or simply the value itself.}
 
 \item{tset_up}{Upper boundary of the set-point range.}
 }
 \value{
-Effectiveness of temperature regulation (E) sensu Blouin-Demers 
+Effectiveness of temperature regulation (E) sensu Blouin-Demers
 and Weatherhead (2001).
 }
 \description{
-This function calculates an often-used variant of the original formula to 
-determine effectiveness of temperature regulation of Hertz et al. (1993). 
-The concerning variant was proposed by Blouin-Demers & Weatherhead (2001), 
+This function calculates an often-used variant of the original formula to
+determine effectiveness of temperature regulation of Hertz et al. (1993).
+The concerning variant was proposed by Blouin-Demers & Weatherhead (2001),
 who argued that interpretation of the formula of Hertz et al. (1993) is
-confounded by the fact that different combinations of the mean thermal 
-quality of the habitat (de) and mean accuracy of temperature regulation (db) 
+confounded by the fact that different combinations of the mean thermal
+quality of the habitat (de) and mean accuracy of temperature regulation (db)
 might lead to similar E values. As such, Blouin-Demers & Weatherhead (2001)
-proposed use of E = de - db, which quantifies the extent of departure from 
-perfect thermoconformity. Postive E values indicate active temperature
-regulation, negative values represent active avoidance of suitable thermal 
-habitat, and values around 0 suggest thermoconformity. 
-The thermal quality of the habitat (de) and accuracy of temperature 
-regulation (db) are calculated as part of this formula, so it is not 
-necessary to run \code{\link{calculate_de}} and \code{\link{calculate_db}} 
+proposed use of E = de - db, which quantifies the extent of departure from
+perfect thermoconformity. Positive E values indicate active temperature
+regulation, negative values represent active avoidance of suitable thermal
+habitat, and values around 0 suggest thermoconformity.
+The thermal quality of the habitat (de) and accuracy of temperature
+regulation (db) are calculated as part of this formula, so it is not
+necessary to run \code{\link{calculate_de}} and \code{\link{calculate_db}}
 before running this function.
 }
 \examples{
@@ -46,7 +46,7 @@ E <- calculate_E_blouin(te, tb, 19.35, 26.44)
 
 }
 \references{
-Blouin-Demers, G., & Weatherhead, P. J. (2001). Thermal ecology of black rat 
+Blouin-Demers, G., & Weatherhead, P. J. (2001). Thermal ecology of black rat
 snakes (Elaphe obsoleta) in a thermally challenging environment. Ecology, 82
 (11), 3025-3043.
 }
