@@ -8,11 +8,9 @@ ectotemp
 Easy and rapid quantitative estimation of small terrestrial ectotherm temperature regulation effectiveness in R.
 ----------------------------------------------------------------------------------------------------------------
 
-ectotemp is built on classical formulas that evaluate temperature regulation by means of various indices. Options for bootstrapping and permutation testing are included to test hypotheses about divergence between organisms, species or populations.
+ectotemp consists of a modest function library that can be used to evaluate temperature regulation effectivenes in small terrestrial ectotherms, once data describing field-active body temperatures (*T*<sub>b</sub>), environmental (operative) temperatures (*T*<sub>e</sub>) and preferred temperatures (the set-point range, *T*<sub>set</sub>) have been collected. To this aim, ectotemp builds on classical work by Hertz et al. (1993, and references therein), Christian and Weavers (1996), and Blouin-Demers and Weatherhead (2001). Options for bootstrapping and permutation testing are included to test hypotheses about divergence between organisms, species or populations. Users of this package do not need to be particularly experienced in R, but are expected to be familiar with the background, appropriate choice, and caveats of the available functions (Hertz et al. 1993, Christian and Weavers 1996, Wills and Beaupre 2000, Blouin-Demers and Nadeau 2005).
 
-ectotemp builds on work by Hertz et al. (1993, and references therein), Christian and Weavers (1996), and Blouin-Demers and Weatherhead (2001). Users of this package do not need to be particularly experienced in R, but are expected to be familiar with the background, appropriate choice, and caveats of the available functions (Hertz et al. 1993, Christian and Weavers 1996, Wills and Beaupre 2000, Blouin-Demers and Nadeau 2005).
-
-The aim of the ectotemp package is to facilitate easy and rapid estimation of small, terrestrial ectotherm temperature regulation effectiveness after data describing field-active body temperatures (*T*<sub>b</sub>), environmental (operative) temperatures (*T*<sub>e</sub>) and preferred temperatures (the set-point range, *T*<sub>set</sub>) have been collected. The package provides functions for the following types of analyses:
+Ectotemp provides functions for the following types of analyses:
 
 -   The **thermal quality of the habitat (*d*<sub>e</sub>)** and associated descriptive statistics, which estimate the degree to which environmental temperature matches the set-point range;
 
