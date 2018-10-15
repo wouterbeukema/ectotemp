@@ -40,7 +40,7 @@
 #' tb <- na.omit(bufbuf[,"tb"])
 #' E_bootstrapped <- bootstrap_E(te, tb,
 #'                              19.35, 26.44,
-#'                              hertz',
+#'                              'hertz',
 #'                              1000)
 #'
 #' @export

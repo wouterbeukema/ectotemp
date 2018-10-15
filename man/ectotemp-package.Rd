@@ -8,6 +8,39 @@
 \description{
 Easy and rapid quantitative estimation of small terrestrial ectotherm temperature regulation effectiveness in R. ectotemp is built on classical formulas that evaluate temperature regulation by means of various indices, inaugurated by Hertz et al. (1993) <doi: 10.1086/285573>. Options for bootstrapping and permutation testing are included to test hypotheses about divergence between organisms, species or populations.
 }
+\details{
+ectotemp builds on work by Hertz et al. (1993, and references therein),
+Christian and Weavers (1996), and Blouin-Demers and Weatherhead (2001). Users
+of this package do not need to be particularly experienced in R, but are
+expected to be familiar with the background, appropriate choice, and caveats
+of the available functions (Hertz et al. 1993, Christian and Weavers 1996,
+Wills and Beaupre 2000, Blouin-Demers and Nadeau 2005).
+\cr
+\cr
+The aim of the ectotemp package is to facilitate easy and rapid estimation
+of small, terrestrial ectotherm temperature regulation effectiveness after
+data describing field-active body temperatures (\emph{T}b), environmental
+(operative) temperatures (\emph{T}e) and preferred temperatures (the set-
+point range, \emph{T}set) have been collected. The package provides functions
+for the following types of analyses:
+\itemize{
+  \item The \bold{accuracy of temperature regulation (\emph{d}b)} and
+  associated descriptive statistics, which estimate the degree to which
+  ectotherms experience body temperature outside of their set-point range;
+  \item The \bold{thermal quality of the habitat (\emph{d}e)} and associated
+  descriptive statistics, which estimate the degree to which environmental
+  temperature matches the set-point range;
+  \item Choice between several approaches to \bold{calculate effectiveness of
+  temperature regulation (\emph{E*})}, including bootstrap resampling of the
+  original distributions of Tb and Te to determine confidence interval for
+  the mean, and permutation tests for between-population or species
+  comparisons;
+  \item \bold{Exploitation of the thermal environment (Ex)}, i.e., the amount
+  of time when field body temperatures (\emph{T}b) are within the set-point
+  range, relative to the total amount of time during which this could have
+  been possible as indicated by operative temperatures (\emph{T}e).
+}
+}
 \references{
 Blouin-Demers, G., & Weatherhead, P. J. (2001). Thermal ecology of black rat
 snakes (\emph{Elaphe obsoleta}) in a thermally challenging environment.

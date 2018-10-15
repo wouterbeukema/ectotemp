@@ -38,6 +38,15 @@ regulation (db) are calculated as part of this formula, so it is not
 necessary to run \code{\link{calculate_de}} and \code{\link{calculate_db}}
 before running this function.
 }
+\examples{
+te <- na.omit(bufbuf[,"te"])
+tb <- na.omit(bufbuf[,"tb"])
+E_bootstrapped <- bootstrap_E(te, tb,
+                             19.35, 26.44,
+                             'hertz',
+                             1000)
+
+}
 \references{
 Blouin-Demers, G., & Weatherhead, P. J. (2001). Thermal ecology of black rat
 snakes (Elaphe obsoleta) in a thermally challenging environment. Ecology, 82

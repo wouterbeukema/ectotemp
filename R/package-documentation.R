@@ -9,26 +9,26 @@
 #' \cr
 #' The aim of the ectotemp package is to facilitate easy and rapid estimation
 #' of small, terrestrial ectotherm temperature regulation effectiveness after
-#' data describing field-active body temperatures (\emph{T}b),
-#' environmental (operative) temperatures (\emph{T}e) and preferred
-#' temperatures (the set-point range, \emph{T}set) have been collected.
-#' The package provides functions for the following types of analyses:
+#' data describing field-active body temperatures (\emph{T}b), environmental
+#' (operative) temperatures (\emph{T}e) and preferred temperatures (the set-
+#' point range, \emph{T}set) have been collected. The package provides functions
+#' for the following types of analyses:
 #' \itemize{
-#'   \item The \bold{accuracy of temperature regulation (\emph{d}b) and
+#'   \item The \bold{accuracy of temperature regulation (\emph{d}b)} and
 #'   associated descriptive statistics, which estimate the degree to which
 #'   ectotherms experience body temperature outside of their set-point range;
-#'   \item The \bold{thermal quality of the habitat (\emph{d}e)} and
-#'   associated descriptive statistics, which estimate the degree to which
-#'   environmental temperature matches the set-point range;
+#'   \item The \bold{thermal quality of the habitat (\emph{d}e)} and associated
+#'   descriptive statistics, which estimate the degree to which environmental
+#'   temperature matches the set-point range;
 #'   \item Choice between several approaches to \bold{calculate effectiveness of
-#'   temperature regulation (\emph{E*}), including bootstrap resampling of the
-#'   original distributions of (\emph{T}b) and (\emph{T}e) to
-#'   determine confidence interval for the mean, and permutation tests for
-#'   between-population or species comparisons;
+#'   temperature regulation (\emph{E*})}, including bootstrap resampling of the
+#'   original distributions of Tb and Te to determine confidence interval for
+#'   the mean, and permutation tests for between-population or species
+#'   comparisons;
 #'   \item \bold{Exploitation of the thermal environment (Ex)}, i.e., the amount
-#'   of time when field body temperatures (\emph{T}b) are within the set
-#'   -point range, relative to the total amount of time during which this could
-#'   have been possible as indicated by operative temperatures (\emph{T}e).
+#'   of time when field body temperatures (\emph{T}b) are within the set-point
+#'   range, relative to the total amount of time during which this could have
+#'   been possible as indicated by operative temperatures (\emph{T}e).
 #' }
 #'
 #' @seealso
