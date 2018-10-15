@@ -1,5 +1,5 @@
 #' @details
-#' ``ectotemp`` builds on work by Hertz et al. (1993, and references therein),
+#' ectotemp builds on work by Hertz et al. (1993, and references therein),
 #' Christian and Weavers (1996), and Blouin-Demers and Weatherhead (2001). Users
 #' of this package do not need to be particularly experienced in R, but are
 #' expected to be familiar with the background, appropriate choice, and caveats
@@ -7,11 +7,11 @@
 #' Wills and Beaupre 2000, Blouin-Demers and Nadeau 2005).
 #' \cr
 #' \cr
-#' The aim of the ``ectotemp`` package is to facilitate easy and rapid estimation
+#' The aim of the ectotemp package is to facilitate easy and rapid estimation
 #' of small, terrestrial ectotherm temperature regulation effectiveness after
-#' data describing field-active body temperatures (*T*<sub>b</sub>),
-#' environmental (operative) temperatures (*T*<sub>e</sub>) and preferred
-#' temperatures (the set-point range, *T*<sub>set</sub>) have been collected.
+#' data describing field-active body temperatures (\emph{T}b),
+#' environmental (operative) temperatures (\emph{T}e) and preferred
+#' temperatures (the set-point range, \emph{T}set) have been collected.
 #' The package provides functions for the following types of analyses:
 #' \itemize{
 #'   \item The \bold{accuracy of temperature regulation (*d*<sub>b</sub>)} and
@@ -21,14 +21,14 @@
 #'   associated descriptive statistics, which estimate the degree to which
 #'   environmental temperature matches the set-point range;
 #'   \item Choice between several approaches to \bold{calculate effectiveness of
-#'   temperature regulation (*E*)}, including bootstrap resampling of the
-#'   original distributions of (*T*<sub>b</sub>) and (*T*<sub>e</sub>) to
+#'   temperature regulation (\emph{E*}), including bootstrap resampling of the
+#'   original distributions of (\emph{T}b) and (\emph{T}e) to
 #'   determine confidence interval for the mean, and permutation tests for
 #'   between-population or species comparisons;
 #'   \item \bold{Exploitation of the thermal environment (Ex)}, i.e., the amount
-#'   of time when field body temperatures (*T*<sub>b</sub>) are within the set
+#'   of time when field body temperatures (\emph{T}b) are within the set
 #'   -point range, relative to the total amount of time during which this could
-#'   have been possible as indicated by operative temperatures (*T*<sub>e</sub>).
+#'   have been possible as indicated by operative temperatures (\emph{T}e).
 #' }
 #'
 #' @seealso
