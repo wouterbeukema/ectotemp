@@ -21,7 +21,7 @@
 #'   descriptive statistics, which estimate the degree to which environmental
 #'   temperature matches the set-point range;
 #'   \item Choice between several approaches to \bold{calculate effectiveness of
-#'   temperature regulation (\emph{E*})}, including bootstrap resampling of the
+#'   temperature regulation (\emph{E})}, including bootstrap resampling of the
 #'   original distributions of Tb and Te to determine confidence interval for
 #'   the mean, and permutation tests for between-population or species
 #'   comparisons;
