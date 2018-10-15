@@ -14,10 +14,10 @@
 #' temperatures (the set-point range, \emph{T}set) have been collected.
 #' The package provides functions for the following types of analyses:
 #' \itemize{
-#'   \item The \bold{accuracy of temperature regulation (*d*<sub>b</sub>)} and
+#'   \item The \bold{accuracy of temperature regulation (\emph{d}b) and
 #'   associated descriptive statistics, which estimate the degree to which
 #'   ectotherms experience body temperature outside of their set-point range;
-#'   \item The \bold{thermal quality of the habitat (*d*<sub>e</sub>)} and
+#'   \item The \bold{thermal quality of the habitat (\emph{d}e)} and
 #'   associated descriptive statistics, which estimate the degree to which
 #'   environmental temperature matches the set-point range;
 #'   \item Choice between several approaches to \bold{calculate effectiveness of
