@@ -65,3 +65,7 @@ Useful links:
   \item \url{https://github.com/wouterbeukema/ectotemp}
 }
 }
+\author{
+\strong{Maintainer}: Wouter Beukema \email{wouter.beukema@gmail.com}
+
+}
