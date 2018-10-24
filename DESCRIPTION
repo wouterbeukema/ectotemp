@@ -10,7 +10,7 @@ Imports:
     psych,
     stats,
     graphics
-URL: https://github.com/wouterbeukema/ectotemp
+URL: https://CRAN.R-project.org/package=ectotemp
 BugReports: https://github.com/wouterbeukema/ectotemp/issues
 License: MIT + file LICENSE
 Encoding: UTF-8
