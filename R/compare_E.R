@@ -162,7 +162,7 @@ compare_E <-
                   cex = 0.7,
                   "Empirical E difference")
 
-    p <- sum(abs(na.omit(E_perm) >= abs(Empirical_E_diff)) / length(E_perm))
+    p <- sum(abs(stats::na.omit(E_perm) >= abs(Empirical_E_diff)) / length(E_perm))
 
     E_results <- as.list(c("Empirical difference in E" = Empirical_E_diff,
                            "p value" = p))
