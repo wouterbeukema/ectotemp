@@ -1,18 +1,7 @@
-year <- sub("-.*", "", meta$Date)
-note <- sprintf("R package version %s", meta$Version)
-
-citHeader("To cite ectotemp in publications use:")
-
-citEntry(entry = "Manual",
-  title        = "{ectotemp}: Quantitative Estimates of Small Ectotherm Temperature Regulation Effectiveness",
-  author       = personList(as.person("Wouter Beukema"),
-  year         = year,
-  volume       = "40",
-  note = note,
+bibentry(
+  bibtype = "Manual",
+  title = "{ectotemp}: Quantitative Estimates of Small Ectotherm Temperature Regulation Effectiveness",
+  author = person("Wouter Beukema"),
+  year = "2018"",
+  note = "R package version 0.1.2",
   url = "https://CRAN.R-project.org/package=ectotemp")
-
-  textVersion  =
-  paste("Wouter Beukema (year).",
-        "ectotemp:  Quantitative Estimates of Small Ectotherm Temperature Regulation Effectiveness.",
-        "URL https://CRAN.R-project.org/package=ectotemp.")
-)
