@@ -2,7 +2,7 @@
 
 * Added examples (incl. figure) and badges to README.md; formatted all formula abbreviations correctly.
 
-* Fixed an error that hindered calculation of the p value in ``compare_E`` when comparing species from different environments (i.e., characterised by inequal numbers of Te values).
+* Fixed an error that hindered calculation of the p value in ``compare_E`` when comparing species from different environments (i.e., containing inequal amounts of Te values).
 
 # ectotemp 0.1.1
 
