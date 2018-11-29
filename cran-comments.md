@@ -1,9 +1,7 @@
 ## Resubmission
 This is a resubmission. In this version I have:
 
-* Updated the 'date' field in DESCRIPTION;
-
-* Fixed a error that caused conversion of README to fail
+* Fixed an error that hindered the ``compare_E`` function when the species to be compared were characterised by inequal amounts of Te values.
 
 ## test environments
 * local OS Windows 10 64-bit install, R 3.5.1
