@@ -5,7 +5,7 @@ This is a resubmission. In this version I have:
 
 ## test environments
 * local OS Windows 10 64-bit install, R 3.5.1
-* ubuntu 14.04 (on travis-ci), R 3.5.0
+* ubuntu 14.04.5 LTS (on travis-ci), R 3.5.1
 
 ## R CMD check results
 0 errors | 0 warnings | 0 notes
