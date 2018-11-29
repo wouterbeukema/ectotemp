@@ -3,8 +3,6 @@
 ectotemp
 ========
 
-[![Build Status](https://travis-ci.org/wouterbeukema/ectotemp.svg?branch=master)](https://travis-ci.org/wouterbeukema/ectotemp) [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/ectotemp)](https://cran.r-project.org/package=ectotemp)
-
 Easy and rapid quantitative estimation of small terrestrial ectotherm temperature regulation effectiveness in R.
 ----------------------------------------------------------------------------------------------------------------
 
@@ -69,8 +67,6 @@ $`Empirical difference in E`
 $`p value`
 [1] 0.001
 ```
-
-![Histogram](histogram.jpg)
 
 References
 ----------

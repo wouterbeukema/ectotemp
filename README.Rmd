@@ -14,8 +14,6 @@ knitr::opts_chunk$set(
 
 # ectotemp
 
-[![Build Status](https://travis-ci.org/wouterbeukema/ectotemp.svg?branch=master)](https://travis-ci.org/wouterbeukema/ectotemp) [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/ectotemp)](https://cran.r-project.org/package=ectotemp)
-
 ## Easy and rapid quantitative estimation of small terrestrial ectotherm temperature regulation effectiveness in R. 
 
 ectotemp consists of a modest function library that can be used to evaluate temperature regulation effectivenes in small terrestrial ectotherms, once data describing field-active body temperatures (*T*<sub>b</sub>), environmental (operative) temperatures (*T*<sub>e</sub>) and preferred temperatures (the set-point range, *T*<sub>set</sub>) have been collected. To this aim, ectotemp builds on classical work by Hertz et al. (1993, and references therein), Christian and Weavers (1996), and Blouin-Demers and Weatherhead (2001). Options for bootstrapping and permutation testing are included to test hypotheses about divergence between organisms, species or populations. Users of this package do not need to be particularly experienced in R, but are expected to be familiar with the background, appropriate choice, and caveats of the available functions (Hertz et al. 1993, Christian and Weavers 1996, Wills and Beaupre 2000, Blouin-Demers and Nadeau 2005). 
@@ -80,9 +78,6 @@ $`p value`
 [1] 0.001
 
 ```
-
-![Histogram](histogram.jpg)
-
 
 ## References
 
