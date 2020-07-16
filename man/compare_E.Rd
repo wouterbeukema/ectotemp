@@ -4,8 +4,16 @@
 \alias{compare_E}
 \title{Compare E between species or populations using permutation}
 \usage{
-compare_E(datasp1, datasp2, tset_lowsp1, tset_upsp1, tset_lowsp2,
-  tset_upsp2, index, n)
+compare_E(
+  datasp1,
+  datasp2,
+  tset_lowsp1,
+  tset_upsp1,
+  tset_lowsp2,
+  tset_upsp2,
+  index,
+  n
+)
 }
 \arguments{
 \item{datasp1}{A dataframe with two columns named 'te' (containing operative
