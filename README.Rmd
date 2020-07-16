@@ -14,7 +14,7 @@ knitr::opts_chunk$set(
 
 # ectotemp
 
-[![Travis build status](https://travis-ci.com/wouterbeukema/ectotemp.svg?branch=master)](https://travis-ci.com/wouterbeukema/ectotemp) [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/ectotemp)](https://cran.r-project.org/package=ectotemp)
+[![Build Status](https://travis-ci.com/wouterbeukema/ectotemp.svg?branch=master)](https://travis-ci.com/wouterbeukema/ectotemp) [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/ectotemp)](https://cran.r-project.org/package=ectotemp)
 
 ## Easy and rapid quantitative estimation of small terrestrial ectotherm temperature regulation effectiveness in R. 
 
