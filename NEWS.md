@@ -1,3 +1,7 @@
+# ectotemp 0.2.0
+
+* Updated ectotemp to R 3.6.
+
 # ectotemp 0.1.2
 
 * Added examples (incl. figure) and badges to README.md; formatted all formula abbreviations correctly.
