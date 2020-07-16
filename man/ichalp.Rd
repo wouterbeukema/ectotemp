@@ -4,7 +4,9 @@
 \name{ichalp}
 \alias{ichalp}
 \title{Alpine newt body temperatures and associated operative temperatures}
-\format{An object of class \code{data.frame} with 99 rows and 2 columns.}
+\format{
+An object of class \code{data.frame} with 99 rows and 2 columns.
+}
 \source{
 Wouter Beukema \email{wouter.beukema@gmail.com}
 }
