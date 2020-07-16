@@ -1,6 +1,6 @@
 # ectotemp 0.2.0
 
-* Updated ectotemp to R 3.6.
+* Updated ectotemp to R-4.0.2
 
 # ectotemp 0.1.2
 
