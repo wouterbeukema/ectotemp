@@ -13,7 +13,7 @@ authors:
 
 affiliations:
 - name: Wildlife Health Ghent, Department of Pathology, Bacteriology and Avian Diseases, Ghent University, Salisburylaan 133, 9820 Merelbeke, Belgium
-index: 1
+  index: 1
 
 date: 24 July 2020
 bibliography: paper.bib
