@@ -22,7 +22,7 @@ bibliography: paper.bib
 # Summary
 Environmental change research regularly makes use of indices that translate natural complexity into measurable elements. Such indicators describe the state and changes in natural systems, communities, or organisms. For instance, climate change indices may be used to compare weather conditions between different regions, whereas diversity indices summarize measures of local or regional species richness and abundance. At organismal level, a suite of different indices exist to describe physiology, behaviour, and vulnerability of the entity in question. 
 
-In what would become a seminal paper, @hhs93 introduced several quantitative indices specifically aimed at evaluating temperature regulation effectiveness of small, terrestrial ectotherms such as reptiles or insects. Ectotherms, informally known as ‘cold-blooded animals’, are popular models in environmental and evolutionary research because their activity and performance are subject to the surrounding thermal landscape. Most ectotherms are nevertheless able to regulate their body temperature by using physiological and behavioural mechanisms, of which basking in lizards constitutes a well-known example. Research during the past decades has demonstrated that the extent and effectiveness of such thermoregulation may, among other examples, determine organism susceptibility to climate change, disease, and slow or promote selection [e.g. @hs76; @hhs03; @a90; @ksp09; @hkkhjw12 and references therein]. The methods introduced by @hhs93 are consequently often applied in ecological and evolutionary studies, amounting to well over 700 citations as of mid-2020.
+In what would become a seminal paper, @hhs93 introduced several quantitative indices specifically aimed at evaluating temperature regulation effectiveness of small, terrestrial ectotherms such as reptiles or insects. Ectotherms, informally known as ‘cold-blooded animals’, are popular models in environmental and evolutionary research because their activity and performance are subject to the surrounding thermal landscape. Most ectotherms are nevertheless able to regulate their body temperature by using physiological and behavioural mechanisms, of which basking in lizards constitutes a well-known example. Research during the past decades has demonstrated that the extent and effectiveness of such thermoregulation may, among other examples, determine organism susceptibility to climate change, disease, and slow or promote selection [e.g. @hs76; @hhs03; @a90; @ksp09; @hkkhjw12]. The methods introduced by @hhs93 are consequently often applied in ecological and evolutionary studies, amounting to well over 700 citations as of mid-2020.
 
 # Statement of need
 Implementing the research protocol of @hhs93 is however hampered by the succession of formulae that are not readily applied in standard statistical software, and due to lack of a platform to run and compare often-used alternatives or updates presented by subsequent authors [e.g. @cw96; @bw01; @ss04; see also @gac19]. In an attempt to facilitate easy, rapid and consistent quantitative estimation of small ectotherm thermoregulation effectiveness I therefore designed the R package `ectotemp`, which builds on work by @hhs93, @cw96 and @bw01. The `ectotemp` package is a modest function library as well as an analytical framework written in the open-source R language (R Core Team 2018), and is freely available from CRAN and GitHub (see details below). Users of `ectotemp` do not need to be particularly experienced in R, but are expected to be familiar with the background, appropriate choice, and caveats of the available functions [e.g. @bn05]. Recent variants to some of the available indices that compress environmental temperature data into central or extreme tendencies [e.g. @dthsghm08; @hdtvhag09] are at this point not included in `ectotemp`.
@@ -46,7 +46,7 @@ install_github("wouterbeukema/ectotemp")
  ```
 
 # Example
-#### Analyse
+*Analyse*
 Output summary of `bootstrap_E`, which combines environmental and body temperature data (*T*e and *T*b) and the bounds of the set-point range (predetermined values, 19.35°C and 26.44°C in the example below) with the desired method to estimate thermoregulation effectiveness (*E*; either ‘hertz’ or ‘blouin’), and the number of bootstrap samples drawn with replacement (10.000 in the example below). The output consists of the mean, its 95% confidence interval, and the full list of obtained *E* values.
 
 ``` r
@@ -60,7 +60,7 @@ $upper
 [1] 2.943091
 ```
 
-#### Compare
+*Compare*
 Permutation testing to compare thermoregulation effectiveness (*E*) between populations or species. The function `compare_E` relies on similar input information as in the above example. First, an empirical value that describes the actual difference in *E* between two entities is calculated, which is subsequently compared to a null distribution obtained through sampling without replacement from the pooled *T*e and *T*b values of both entities. The output includes permutation test results and a graphical overview (see \autoref{Figure 1}) of the empirical difference in *E* along with the permuted null distribution.
 
 ``` r
