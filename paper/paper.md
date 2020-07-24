@@ -28,10 +28,10 @@ Implementing the research protocol of @hhs93 is however hampered by the successi
 
 # Aim of the package
 The aim of the `ectotemp` package is to facilitate easy and rapid estimation of small, terrestrial ectotherm thermoregulation effectiveness after data describing field-active body temperatures (*T*b), environmental (operative) temperatures (*T*e) and preferred temperatures (the set-point range, *T*set) have been collected. The package provides functions for the following types of analyses:
-- The accuracy of temperature regulation (*d*b) and associated descriptive statistics, which estimate the degree to which ectotherms experience body temperature outside of their set-point range;
-- Thermal habitat quality (*d*e) and associated descriptive statistics, which estimate the degree to which environmental temperatures match the set-point range;
-- Choice between several approaches to calculate thermoregulation effectiveness (*E*), including bootstrap resampling of the original distributions of *T*b and *T*e to determine confidence interval for the mean. I here introduce the use of permutation tests for between-population or species comparisons;
-- Exploitation of the thermal environment (Ex); the amount of time when *T*b are within the set-point range, relative to the total amount of time during which this could have been possible as indicated by environmental temperatures.
+* The accuracy of temperature regulation (*d*b) and associated descriptive statistics, which estimate the degree to which ectotherms experience body temperature outside of their set-point range;
+* Thermal habitat quality (*d*e) and associated descriptive statistics, which estimate the degree to which environmental temperatures match the set-point range;
+* Choice between several approaches to calculate thermoregulation effectiveness (*E*), including bootstrap resampling of the original distributions of *T*b and *T*e to determine confidence interval for the mean. I here introduce the use of permutation tests for between-population or species comparisons;
+* Exploitation of the thermal environment (Ex); the amount of time when *T*b are within the set-point range, relative to the total amount of time during which this could have been possible as indicated by environmental temperatures.
 
 The released version of `ectotemp` can be installed from CRAN with:
 ``` r
